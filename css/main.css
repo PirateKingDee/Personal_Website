@@ -3,7 +3,9 @@ header
 *********************************************/
 header {
   background-color: #000;
-  border:10px solid #1C2833;
+  border-bottom:10px solid #1C2833;
+  margin-top: 0;
+  padding-top: 10px;
 }
 header h1{
   color: #fff;
@@ -11,13 +13,11 @@ header h1{
   margin: 20px auto;
   margin-bottom: 0;
   font-family: 'Dancing Script', cursive;
-  font-size: 64px;
-  background-color: green;
+  font-size: 120px;
 }
 header p{
   color: #fff;
   font-size: 10px;
-  background-color: orange;
   margin-top: 0;
   text-align: center;
 
@@ -40,4 +40,18 @@ nav li{
 }
 nav a:hover{
   color: #424949;
+}
+
+/*********************************************
+Body
+*********************************************/
+
+.body {
+  height: 500px;
+  margin-top: 0;
+  background-color: #000;
+
+}
+.body p{
+  color:white;
 }
