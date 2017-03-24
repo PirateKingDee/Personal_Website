@@ -6,29 +6,39 @@
   <title>Software Developer | Andy</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/responsive.css">
 	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Handlee|Lemonada" rel="stylesheet">
-
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <header>
+  <div class="header">
   	<h1>Andy Liang</h1>
-  	<p>Software Developer</p>
-  	<nav>
+  </div>
+  <div class="menu">
+    <nav>
   		<ul>
-  			<a href="index.html"><li>Home</li></a>
   			<a href=""><li>About</li></a>
   			<a href="Resume.pdf"><li>Resume</li></a>
         <a href=""><li>Contact</li></a>
   		</ul>
   	</nav>
-  </header>
-  <div class="body">
+  </div>
+  <div class="about">
+    <h1 id="about_title">About</h1>
+    <div id="description">
+      <p>Hi How Are You<br>I am Andy, currently a college student studying Computer Science in CalPoly Pomona University. In school, I always focus on improving my programming skill, try to develop useful applications. Outsite of school, I like to do exercise such as play soccer, basketball and hiking. </p>
+    </div>
+    <div id="profile_pic">
+      <img src="img/profile_pic.png" alt="my picture">
+    </div>
   </div>
   <footer>
     <p>&COPY Andy Liang</p>
 
   </footer>
+  <script src = "js/hover.js"></script>
 </body>
 </html>
